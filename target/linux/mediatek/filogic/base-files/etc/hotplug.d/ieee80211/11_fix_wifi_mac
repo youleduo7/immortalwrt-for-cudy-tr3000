@@ -87,9 +87,7 @@ case "$board" in
 	cudy,m3000-v2-yt8821|\
 	cudy,m3000-v2-yt8821-ubootmod|\
 	cudy,re3000-v1|\
-	cudy,tr3000-256mb-v1|\
-	cudy,tr3000-v1|\
-	cudy,tr3000-v1-ubootmod|\
+	cudy,tr3000|\
 	cudy,wr3000u-v1|\
 	cudy,wbr3000uax-v1|\
 	cudy,wbr3000uax-v1-ubootmod|\

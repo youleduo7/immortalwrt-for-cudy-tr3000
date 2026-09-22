@@ -117,7 +117,7 @@ platform_do_upgrade() {
 	creatlentem,clt-r30b1-ubi|\
 	cudy,m3000-v1-ubootmod|\
 	cudy,m3000-v2-yt8821-ubootmod|\
-	cudy,tr3000-v1-ubootmod|\
+	cudy,tr3000|\
 	cudy,wbr3000uax-v1-ubootmod|\
 	cudy,wr3000e-v1-ubootmod|\
 	cudy,wr3000s-v1-ubootmod|\
@@ -364,7 +364,7 @@ platform_check_image() {
 	creatlentem,clt-r30b1-ubi|\
 	cudy,m3000-v1-ubootmod|\
 	cudy,m3000-v2-yt8821-ubootmod|\
-	cudy,tr3000-v1-ubootmod|\
+	cudy,tr3000|\
 	cudy,wbr3000uax-v1-ubootmod|\
 	cudy,wr3000e-v1-ubootmod|\
 	cudy,wr3000s-v1-ubootmod|\

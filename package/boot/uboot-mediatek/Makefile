@@ -387,11 +387,11 @@ define U-Boot/mt7981_cudy_m3000-v2-yt8821
   DEPENDS:=+trusted-firmware-a-mt7981-cudy-ddr3
 endef
 
-define U-Boot/mt7981_cudy_tr3000-v1
-  NAME:=Cudy TR3000 v1
+define U-Boot/mt7981_cudy_tr3000
+  NAME:=Cudy TR3000
   BUILD_SUBTARGET:=filogic
-  BUILD_DEVICES:=cudy_tr3000-v1-ubootmod
-  UBOOT_CONFIG:=mt7981_cudy_tr3000-v1
+  BUILD_DEVICES:=cudy_tr3000
+  UBOOT_CONFIG:=mt7981_cudy_tr3000
   UBOOT_IMAGE:=u-boot.fip
   BL2_BOOTDEV:=cudy-ddr3
   BL2_SOC:=mt7981
@@ -1420,7 +1420,7 @@ UBOOT_TARGETS := \
 	mt7981_creatlentem_clt-r30b1-ubi \
 	mt7981_cudy_m3000-v1 \
 	mt7981_cudy_m3000-v2-yt8821 \
-	mt7981_cudy_tr3000-v1 \
+	mt7981_cudy_tr3000 \
 	mt7981_cudy_wbr3000uax-v1 \
 	mt7981_cudy_wr3000e-v1 \
 	mt7981_cudy_wr3000s-v1 \
